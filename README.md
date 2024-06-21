@@ -9,7 +9,8 @@ This CLI has been built around modding for PAYDAY 3 (UE4.27), and is not guarant
 You need the Unreal Engine CMD executable, as well as a built unreal engine project with the AssetGenerator and AssetDumper plugins.
 
 ## Documentation
-Before utilising this tool, make sure to set up the config.json file to have the same paths, these should all work with relative as well as absolute paths.
+Before utilising this tool, make sure to set up the config.json file to have the same paths, these should all work with relative as well as absolute paths.  
+Also make sure your serialised game assets are located in a "nongenout" directory in the same location as the executable.
 
 Whenever AutoGen is run, it should have its `mode` argument specified, like so:
 ```
