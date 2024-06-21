@@ -1,3 +1,5 @@
+extern crate regex;
+
 use super::{
     config::Config,
     fs::getRecursiveJsonFilesFromDir,
@@ -22,7 +24,7 @@ use std::{
     process::Command, 
     u32
 };
-use regex::Regex;
+use self::regex::Regex;
 
 
 

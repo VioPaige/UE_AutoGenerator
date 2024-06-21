@@ -1,11 +1,14 @@
+extern crate serde_derive;
+extern crate sysinfo;
+
 use std::{
     fs::File, 
     path::PathBuf,
     collections::HashMap
 };
 
-use serde_derive::Deserialize;
-use sysinfo::System;
+use self::serde_derive::Deserialize;
+use self::sysinfo::System;
 
 
 

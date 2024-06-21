@@ -1,4 +1,5 @@
-use regex::Regex;
+extern crate regex;
+use self::regex::Regex;
 
 pub fn colouriseLog(text: String, clearLine: bool) {
     let mut result = text.to_string();
